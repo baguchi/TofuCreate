@@ -44,17 +44,7 @@ public class ModEmptyingRecipeGen extends ProcessingRecipeGen {
             SOYMILK_SAKURA = create(new ResourceLocation(TofuCreate.MODID, "emptying_soymilk_sakura"), b -> b
                     .output(ModAllFluids.SOYMILK_SAKURA.get(), 250).output(Items.GLASS_BOTTLE).require(TofuItems.SOYMILK_SAKURA.get())),
             SOYMILK_TEA = create(new ResourceLocation(TofuCreate.MODID, "emptying_soymilk_tea"), b -> b
-                    .output(ModAllFluids.SOYMILK_TEA.get(), 250).output(Items.GLASS_BOTTLE).require(TofuItems.SOYMILK_TEA.get())),
-            SOYMILK_STRAWBERRY = create(new ResourceLocation(TofuCreate.MODID, "emptying_soymilk_strawberry"), b -> b
-                    .output(ModAllFluids.SOYMILK_STRAWBERRY.get(), 250).output(Items.GLASS_BOTTLE).require(TofuItems.SOYMILK_STRAWBERRY.get())),
-            SOYOIL = create(new ResourceLocation(TofuCreate.MODID, "emptying_soyoil"), b -> b
-                    .output(ModAllFluids.SOYOIL.get(), 250).output(Items.GLASS_BOTTLE).require(TofuItems.SOYOIL.get())),
-            SHROOM = create(new ResourceLocation(TofuCreate.MODID, "emptying_shroom"), b -> b
-                    .output(ModAllFluids.SHROOM.get(), 250).output(Items.GLASS_BOTTLE).require(TofuItems.SHROOM.get())),
-            CRIMSON_FLUID = create(new ResourceLocation(TofuCreate.MODID, "emptying_crisom_fluid"), b -> b
-                    .output(ModAllFluids.CRIMSON_FLUID.get(), 250).output(Items.GLASS_BOTTLE).require(TofuItems.CRIMSON_FLUID.get())),
-            WARPED_FLUID = create(new ResourceLocation(TofuCreate.MODID, "emptying_warped_fluid"), b -> b
-                    .output(ModAllFluids.WARPED_FLUID.get(), 250).output(Items.GLASS_BOTTLE).require(TofuItems.WARPED_FLUID.get()));
+                    .output(ModAllFluids.SOYMILK_TEA.get(), 250).output(Items.GLASS_BOTTLE).require(TofuItems.SOYMILK_TEA.get()));
 
 
     public ModEmptyingRecipeGen(PackOutput output) {

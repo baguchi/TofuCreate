@@ -44,16 +44,7 @@ public class ModFillingRecipeGen extends ProcessingRecipeGen {
             SOYMILK_SAKURA = create(new ResourceLocation(TofuCreate.MODID, "fill_soymilk_sakura"), b -> (com.simibubi.create.content.processing.recipe.ProcessingRecipeBuilder<com.simibubi.create.content.processing.recipe.ProcessingRecipe<?>>) b
                     .require(ModAllFluids.SOYMILK_SAKURA.get(), 250).require(Items.GLASS_BOTTLE).output(TofuItems.SOYMILK_SAKURA.get())),
             SOYMILK_TEA = create(new ResourceLocation(TofuCreate.MODID, "fill_soymilk_tea"), b -> b
-                    .require(ModAllFluids.SOYMILK_TEA.get(), 250).require(Items.GLASS_BOTTLE).output(TofuItems.SOYMILK_TEA.get())),
-
-            SOYMILK_STRAWBERRY = create(new ResourceLocation(TofuCreate.MODID, "fill_soymilk_strawberry"), b -> (com.simibubi.create.content.processing.recipe.ProcessingRecipeBuilder<com.simibubi.create.content.processing.recipe.ProcessingRecipe<?>>) b
-                    .require(ModAllFluids.SOYMILK_STRAWBERRY.get(), 250).require(Items.GLASS_BOTTLE).output(TofuItems.SOYMILK_STRAWBERRY.get())),
-            SHROOM = create(new ResourceLocation(TofuCreate.MODID, "fill_shroom"), b -> (com.simibubi.create.content.processing.recipe.ProcessingRecipeBuilder<com.simibubi.create.content.processing.recipe.ProcessingRecipe<?>>) b
-                    .require(ModAllFluids.SHROOM.get(), 250).require(Items.GLASS_BOTTLE).output(TofuItems.SHROOM.get())),
-            CRIMSON_FLUID = create(new ResourceLocation(TofuCreate.MODID, "fill_crisom_fluid"), b -> b
-                    .require(ModAllFluids.CRIMSON_FLUID.get(), 250).require(Items.GLASS_BOTTLE).output(TofuItems.CRIMSON_FLUID.get())),
-            WARPED_FLUID = create(new ResourceLocation(TofuCreate.MODID, "fill_warped_fluid"), b -> (com.simibubi.create.content.processing.recipe.ProcessingRecipeBuilder<com.simibubi.create.content.processing.recipe.ProcessingRecipe<?>>) b
-                    .require(ModAllFluids.WARPED_FLUID.get(), 250).require(Items.GLASS_BOTTLE).output(TofuItems.WARPED_FLUID.get()));
+                    .require(ModAllFluids.SOYMILK_TEA.get(), 250).require(Items.GLASS_BOTTLE).output(TofuItems.SOYMILK_TEA.get()));
 
 
     public ModFillingRecipeGen(PackOutput output) {
