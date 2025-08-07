@@ -58,6 +58,25 @@ public class ModAllFluids {
             registrate.virtualFluid("soymilk_tea", new ResourceLocation(TofuCraftReload.MODID, "block/soymilk"), new ResourceLocation(TofuCraftReload.MODID, "block/soymilk_flow"), create(0xFFFACF96, 0xFACF96), ModAllFluids::createSource, ModAllFluids::createFlowing)
                     .register();
 
+    public static final FluidEntry<VirtualFluid> SOYMILK_STRAWBERRY =
+            registrate.virtualFluid("soymilk_strawberry", new ResourceLocation(TofuCraftReload.MODID, "block/soymilk"), new ResourceLocation(TofuCraftReload.MODID, "block/soymilk_flow"), create(0xFFF0A1B4, 0xF0A1B4), ModAllFluids::createSource, ModAllFluids::createFlowing)
+                    .register();
+
+    public static final FluidEntry<VirtualFluid> SOYOIL =
+            registrate.virtualFluid("soyoil", new ResourceLocation(TofuCraftReload.MODID, "block/soymilk"), new ResourceLocation(TofuCraftReload.MODID, "block/soymilk_flow"), create(0xFFFFFF00, 0xFFFF00), ModAllFluids::createSource, ModAllFluids::createFlowing)
+                    .register();
+
+    public static final FluidEntry<VirtualFluid> SHROOM =
+            registrate.virtualFluid("shroom", new ResourceLocation(TofuCraftReload.MODID, "block/soymilk"), new ResourceLocation(TofuCraftReload.MODID, "block/soymilk_flow"), create(0xFFFEC07B, 0xFEC07B), ModAllFluids::createSource, ModAllFluids::createFlowing)
+                    .register();
+
+    public static final FluidEntry<VirtualFluid> CRIMSON_FLUID =
+            registrate.virtualFluid("crimson_fluid", new ResourceLocation(TofuCraftReload.MODID, "block/soymilk"), new ResourceLocation(TofuCraftReload.MODID, "block/soymilk_flow"), create(0xFFB12727, 0xB12727), ModAllFluids::createSource, ModAllFluids::createFlowing)
+                    .register();
+
+    public static final FluidEntry<VirtualFluid> WARPED_FLUID =
+            registrate.virtualFluid("warped_fluid", new ResourceLocation(TofuCraftReload.MODID, "block/soymilk"), new ResourceLocation(TofuCraftReload.MODID, "block/soymilk_flow"), create(0xFF118066, 0x118066), ModAllFluids::createSource, ModAllFluids::createFlowing)
+                    .register();
     public static void register() {
     }
 

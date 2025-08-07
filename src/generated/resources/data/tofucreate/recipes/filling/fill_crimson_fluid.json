@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "fluid": "tofucreate:crimson_fluid",
+      "amount": 250
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "results": [
+    {
+      "item": "tofucraft:crimson_fluid_bottle"
+    }
+  ]
+}
