@@ -44,8 +44,7 @@ public class ModEmptyingRecipeGen extends ProcessingRecipeGen {
             SOYMILK_SAKURA = create(new ResourceLocation(TofuCreate.MODID, "emptying_soymilk_sakura"), b -> b
                     .output(ModAllFluids.SOYMILK_SAKURA.get(), 250).output(Items.GLASS_BOTTLE).require(TofuItems.SOYMILK_SAKURA.get())),
             SOYMILK_TEA = create(new ResourceLocation(TofuCreate.MODID, "emptying_soymilk_tea"), b -> b
-                    .output(ModAllFluids.SOYMILK_TEA.get(), 250).output(Items.GLASS_BOTTLE).require(TofuItems.SOYMILK_TEA.get()));
-
+                    .output(ModAllFluids.SOYMILK_TEA.get(), 250).output(Items.GLASS_BOTTLE).require(TofuItems.SOYMILK_TEA.get())),
             SOYMILK_STRAWBERRY = create(new ResourceLocation(TofuCreate.MODID, "emptying_soymilk_strawberry"), b -> b
                     .output(ModAllFluids.SOYMILK_STRAWBERRY.get(), 250).output(Items.GLASS_BOTTLE).require(TofuItems.SOYMILK_STRAWBERRY.get())),
             SOYOIL = create(new ResourceLocation(TofuCreate.MODID, "emptying_soyoil"), b -> b
