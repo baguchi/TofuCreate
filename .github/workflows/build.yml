@@ -1,6 +1,8 @@
 name: Build
 
 on:
+  workflow_dispatch:
+    ~
   push:
     branches: [mc1.20.1]
   pull_request:
