@@ -64,7 +64,7 @@ public class BlockPressBehaviour extends BlockEntityBehaviour {
                             lastResult = ItemStack.EMPTY;
                         }
                     }else {
-                        if (this.lastResult != null) {
+                        if (this.lastResult != null && this.lastResult != ItemStack.EMPTY) {
                             onBlock = true;
                             pressTileEntity.pressingBehaviour.running = true;
                             pressTileEntity.pressingBehaviour.prevRunningTicks = 0;
